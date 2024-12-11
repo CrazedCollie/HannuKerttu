@@ -9,6 +9,7 @@ def Stoori():
     voima = input("Yrität katsoa josko oven saisi auki. Riittääkö voimia? (Kyllä/Ei) ").capitalize()
     if voima == "Kyllä":
         print("Vapaa, vapaa vihdoin! Mä en enää vandalisoi tätä kioskia!")
+	input("Paina Enter lopettaaksesi: ")
         exit()
     else:
         print("Pitää etsiä toinen reitti.")
@@ -23,6 +24,7 @@ def Stoori():
 		
     if pullat < 5:
         print("Pullat mukaan ja menoksi. Vapaa! Muista kuitenkin soittaa poliisit paikalle, noin anonyyminä vinkkinä.")
+	input("Paina Enter lopettaaksesi: ")
         exit()
     else:
         print("Liikaa pullia, ketuille meni, pitää jatkaa etsintöjä. Syöt kuitenkin pullan lohdutukseksi.")
@@ -32,6 +34,7 @@ def Stoori():
     hiiri = input("Annatko hiirille pullaa että ehkä auttavat? (Kyllä/Ei) ").capitalize()
     if hiiri == "Kyllä":
         print("Reitti löytyy kivojen ja mukavien hiirten avulla. Vapaa!")
+	input("Paina Enter lopettaaksesi: ")
         exit()
     else:
         print("Etsintä jatkuu.")
@@ -41,9 +44,11 @@ def Stoori():
     kehu = input("Kehutko leivontakykyjä? (Kyllä/Ei) ").capitalize()
     if kehu == "Kyllä":
         print("Noita raivostuu ja päädyt itse uuniin seuraavan evään ainesosaksi. Bad end.")
+	input("Paina Enter lopettaaksesi: ")
         exit()
     else:
         print("Noita hämmentyy kun ei löydä pulliaan. Työnnät uuniin kun täti tarkistaa sitä, ja liukenet ovesta pihalle. Vapaa!")
+	input("Paina Enter lopettaaksesi: ")
         exit()
 
 Stoori()
