@@ -3,20 +3,21 @@ def Stoori():
 
     kumpi = input("Oletko Hannu vai Kerttu?")
 
-    print("Yrität katsoa josko oven saisi auki. Riittääkö voimia?(Kyllä/Ei)")
-	    If Kyllä:
-		    Vapaa, vapaa vihdoin! Mä en enää vandalisoi tätä kioskia!
-	    If Ei:
-		    Pitää etsiä toinen reitti.
+    voima = input("Yrität katsoa josko oven saisi auki. Riittääkö voimia?(Kyllä/Ei)")
+	    If voima = Kyllä:
+		    print("Vapaa, vapaa vihdoin! Mä en enää vandalisoi tätä kioskia!")
+	    If voima = Ei:
+		    print("Pitää etsiä toinen reitti.")
 
-Ikkunat ovat lukossa. Otat pullaa. Niitä on kymmenisen kappaletta, tuoksuvatkin    		mokomat aika hyvälle. Tuoreita?
-Montako otat? (0-10)
-	If <5 AND Hannu = True
-		Pullat mukaan ja menoksi. Vapaa!
-	If 5>= OR Kerttu:
-		Ketuille meni, pitää jatkaa etsintöjä.
+    print("Ikkunat ovat lukossa. Otat pullaa. Niitä on kymmenisen kappaletta, tuoksuvatkin mokomat aika hyvälle. Tuoreita?")
+    pullat = input("Montako otat? (0-10)")
+    If pullat <5 AND kumpi = Hannu:
+	print("Pullat mukaan ja menoksi. Vapaa!")
+    break
+	If pullat 5>= OR kumpi = Kerttu:
+		print("Ketuille meni, pitää jatkaa etsintöjä.")
 
-Pullat on aika hyviä, mutta jumissa ollaan. Noita on krapuloissaan höpöttänyt lattialuukun reitistä, ehkä se toimii?
+    print("Pullat on aika hyviä, mutta jumissa ollaan. Noita on krapuloissaan höpöttänyt lattialuukun reitistä, ehkä se toimii?")
 Annatko hiirille pullaa että ehkä auttavat?
 	If Kyllä:
 		Reitti löytyy hiirten avulla. Vapaa!
