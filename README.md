@@ -6,9 +6,18 @@ Ohjelmoinnin perustaito R0027-3030
 <h3>Ohjelmistoprojekti</h3>
 
 Teimme hyvin yksinkertaisen tekstipohjaisen seikkailun.  
-Käyttäjä valitsee hahmokseen joko Hannun tai Kertun. Tämän jälkeen käyttäjä etenee tarinassa  
-tavoitteenaan päästä pois noidan mökistä. Voitko vastustaa tuoreen pullan tuoksua ja pääsetkö pakoon ilkeätä noitaa?
+Käyttäjä valitsee aluksi nimen hahmolleen. Tämän jälkeen käyttäjä etenee tarinassa  
+tavoitteenaan päästä pois noidan mökistä. Voitko vastustaa tuoreen pullan tuoksua ja pääsetkö pakoon ilkeätä noitaa?  
 
+<h3>Suunnittelu</h3>  
+Suunnitteluvaihe oli lyhyt ja tehokas. Keksimme käyttää yksinkertaista tarinaa seikkailun pohjana.
+Rosa kirjoitti tarinan ja sisällytti siihen jo valmiiksi valintoja. Tämän jälkeen loimme vuokaavion ja varsinaisen sovelluksen.  
+Ohjelma on yksinkertainen ja toimiva kokonaisuus.
+
+<h3>Ohjelman käynnistäminen</h3>  
+
+Lataa Stoori.py -tiedosto. Avaa se esim. Visual Studio Codessa ja suorita se.  
+Ohjelman voi myös suorittaa Githubin 
 
 
 
