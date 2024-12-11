@@ -24,7 +24,7 @@ def Stoori():
     print("Pullat on aika hyviä, mutta jumissa ollaan. Noita on krapuloissaan höpöttänyt lattialuukun reitistä, ehkä se toimii?")
     hiiri = input("Annatko hiirille pullaa että ehkä auttavat?(Kyllä/Ei)").capitalize()
     if hiiri == "Kyllä":
-        print("Reitti löytyy hiirten avulla. Vapaa!")
+        print("Reitti löytyy kivojen ja mukavien hiirten avulla. Vapaa!")
     else:
         print("Etsintä jatkuu.")
 
