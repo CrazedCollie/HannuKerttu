@@ -1,6 +1,6 @@
 <h1>OHJELMISTOPROJEKTI</h1>
 
-Arttu Hirvonen, Rosa Sable
+Arttu Hirvonen, Rosa Sable  
 Ohjelmoinnin perustaito R0027-3030
 
 <h3>Ohjelmistoprojekti</h3>
