@@ -17,7 +17,7 @@ Ohjelma on yksinkertainen ja toimiva kokonaisuus.
 <h3>Ohjelman käynnistäminen</h3>  
 
 Lataa Stoori.py -tiedosto. Avaa se esim. Visual Studio Codessa ja suorita se.  
-Ohjelman voi myös suorittaa Githubin 
+
 
 
 
